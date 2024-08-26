@@ -25,9 +25,7 @@ open new terminal and run command:
 ```console
  docker exec -it my-laravel-11-container bash
  
- cd /var/www/html
-
- rm index.html
+ cd /var/www/html && rm index.html
 
  composer create-project laravel/laravel .
 ```
